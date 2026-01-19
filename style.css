@@ -1,0 +1,165 @@
+/* Body : fond bleu clair */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #d9f0fc; /* bleu clair */
+}
+
+/* Container principal : carte */
+.form-basic {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #a6d0f3; /* bleu un peu plus foncé que le body */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Titre du formulaire */
+.form-basic h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #0d3b66; /* bleu foncé pour contraste */
+}
+
+/* Ligne de formulaire (inputs) */
+.form-row {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form-row label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #0d3b66;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #7ebdf0;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.form-row input[type="text"]:focus,
+.form-row input[type="email"]:focus {
+    border-color: #0d3b66;
+}
+
+/* Bloc question */
+.question {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.question p {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #0d3b66;
+}
+
+/* Radios alignées horizontalement */
+.question label {
+    margin-right: 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    accent-color: #0d3b66; /* couleur des radios */
+    width: 18px;
+    height: 18px;
+}
+
+/* Bouton */
+.btn-basic {
+    display: block;
+    width: 50%;
+    margin: 30px auto 0 auto;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #0d3b66; /* bleu foncé */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-basic:hover {
+    background-color: #07406c;
+}
+
+/* Lien retour */
+p a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #0d3b66;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Message de confirmation */
+.confirmation {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-color: #d0e7fa; /* bleu très clair */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.confirmation p {
+    font-size: 18px;
+    color: #0d3b66;
+    margin-bottom: 20px;
+}
+
+/* Lien retour dans confirmation */
+.confirmation a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #0d3b66;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.confirmation a:hover {
+    background-color: #07406c;
+}
+
+.site-footer {
+    background-color: #222;       /* couleur de fond */
+    color: #fff;                  /* couleur du texte */
+    text-align: center;           /* centrer le texte */
+    padding: 15px 0;              /* espace en haut et en bas */
+    font-size: 14px;              /* taille du texte */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer a {
+    color: #4CAF50;               /* couleur des liens si tu en ajoutes */
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
